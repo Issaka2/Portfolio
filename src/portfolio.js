@@ -42,17 +42,20 @@ const socialMediaLinks = {
   display: true // Set true to display this section, defaults to false
 };
 
-// Section de competences 
+// Section de competences
 
 const skillsSection = {
   title: "Mon domaine",
-  subTitle: "Développeur Full Stack passionné qui souhaite explorer toutes les technologies",
+  subTitle:
+    "Développeur Full Stack passionné qui souhaite explorer toutes les technologies",
   skills: [
     emoji(
       "⚡ Utilisation des sous domaines de IA pour developper des applications en utilisant l'apprentissage automatique et l'apprentissage profond"
     ),
 
-    emoji("⚡ Développeur d'interface utilisatuer coté Front-End intuitives et interactives pour vous applications"),
+    emoji(
+      "⚡ Développeur d'interface utilisatuer coté Front-End intuitives et interactives pour vous applications"
+    ),
 
     emoji("⚡ Développer la partie du Backend de manière strucutrée")
   ],
@@ -126,24 +129,21 @@ const educationInfo = {
       schoolName: "ISGA",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Ingénieur des systemes informatiques",
-      duration: "Octobre 2024 - A ce jour",
-
+      duration: "Octobre 2024 - A ce jour"
     },
 
     {
       schoolName: "Universite Chouaib Doukkali",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Licence d'Etudes Fondamentales en Maths & Informatique",
-      duration: "Octobre 2020 - juin 2024",
-
+      duration: "Octobre 2020 - juin 2024"
     },
     {
       schoolName: "CSP Tayamana",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Baccalauréat Scientifique ( Serie D ) ",
-      duration: "Octobre 2017 - Aout 2020",
-
-    },
+      duration: "Octobre 2017 - Aout 2020"
+    }
   ]
 };
 
@@ -213,18 +213,21 @@ const openSource = {
 
 const bigProjects = {
   title: "Grand projet",
-  subtitle: "Mes projets que j'ai réalisé en cours d'année, en fin d'année et fin d'etudes ",
+  subtitle:
+    "Mes projets que j'ai réalisé en cours d'année, en fin d'année et fin d'etudes ",
   projects: [
     {
       image: require("./assets/images/Image1.png"),
       projectName: "Detection de Fake News",
-      projectDesc: "creation d'une appli web qui identifie les fausses informations sur les réseaux en utilisant l'apprentissage automatique.",
+      projectDesc:
+        "creation d'une appli web qui identifie les fausses informations sur les réseaux en utilisant l'apprentissage automatique."
     },
 
     {
       image: require("./assets/images/Image2.png"),
       projectName: "Application mobile de reconnaissance d'objets",
-      projectDesc: "Concevoir une appli mobile (Android) pour la reconnaisance d'images en utilisant le Deep Learning. ",
+      projectDesc:
+        "Concevoir une appli mobile (Android) pour la reconnaisance d'images en utilisant le Deep Learning. "
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -259,7 +262,7 @@ const achievementSection = {
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
-    },
+    }
   ],
   display: false // Set false to hide this section, defaults to true
 };
