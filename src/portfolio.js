@@ -23,7 +23,7 @@ const greeting = {
   username: "Hama Seyni Issaka",
   title: "Salut a tous, je suis Issaka",
   subTitle: emoji(
-    "Un développeur de logiciels Full Stack et intellience artificielle passionné 🚀ayant une expérience de création d'applications Web et mobiles avec Java / HTML / Python / JavaScript / PHP / ... et d'autres bibliothèques et frameworks intéressants. 🚀"
+    "Un développeur de logiciels Full Stack et IA passionné 🚀ayant une expérience de création d'applications Web et mobiles avec les langages comme HTML | CSS / Java / Python / PHP / ... et d'autres bibliothèques et frameworks intéressants. 🚀"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -214,7 +214,7 @@ const openSource = {
 const bigProjects = {
   title: "Grand projet",
   subtitle:
-    "Mes projets que j'ai réalisé en cours d'année, en fin d'année et fin d'etudes ",
+    "Mes projets académiques  que j'ai réalisé au cours de mon parcours universitaire",
   projects: [
     {
       image: require("./assets/images/Image1.png"),
@@ -228,6 +228,13 @@ const bigProjects = {
       projectName: "Application mobile de reconnaissance d'objets",
       projectDesc:
         "Concevoir une appli mobile (Android) pour la reconnaisance d'images en utilisant le Deep Learning. "
+    },
+
+    {
+      image: require("./assets/images/Image3.png"),
+      projectName: "Gestion d'un cabinet dentaire",
+      projectDesc:
+        "Création d'une application web pour la gestion d'un cabinet dentaire en utilisant le Framework ASP.NET"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -337,7 +344,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+212 0698727769",
-  email_address: "issak.hama@edu.isga.ma"
+  email_address: "issakas315@gmail.com"
 };
 
 // Twitter Section
