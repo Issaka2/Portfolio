@@ -63,7 +63,7 @@ const skillsSection = {
      
     emoji( "⚡ Création, gestion et optimisation de bases de données pour assurer la cohérence et la performance des applications")
   ],
-
+};
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
