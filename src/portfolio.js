@@ -47,17 +47,21 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "Mon domaine",
   subTitle:
-    "Développeur Full Stack passionné qui souhaite explorer toutes les technologies",
+    "Développeur Full Stack passionné, toujours prêt à explorer et maîtriser de nouvelles technologies",
   skills: [
     emoji(
-      "⚡ Utilisation des sous domaines de IA pour developper des applications en utilisant l'apprentissage automatique et l'apprentissage profond"
+      "⚡ Utilisation des sous domaines de IA pour creer des applications en basées sur l'apprentissage automatique et l'apprentissage profond"
     ),
 
     emoji(
-      "⚡ Développeur d'interface utilisatuer coté Front-End intuitives et interactives pour vous applications"
+      "⚡ Conception d'interfacs utilisateur Front-End intuitives et interactives pour vos applications"
     ),
 
-    emoji("⚡ Développer la partie du Backend de manière strucutrée")
+    emoji(
+      "⚡ Développement de la partie Back-End de manière structurée, performante et sécurisée"
+    ),
+     
+    emoji( "⚡ Création, gestion et optimisation de bases de données pour assurer la cohérence et la performance des applications")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
